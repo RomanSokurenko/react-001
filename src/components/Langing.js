@@ -13,6 +13,7 @@ class Langing extends React.Component {
 
    displayList = () => {
       const { display } = this.state;
+      this.setState({ display: !display });
    };
 
 
